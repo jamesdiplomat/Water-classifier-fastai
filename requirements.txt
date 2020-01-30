@@ -1,8 +1,8 @@
 Flask
 gunicorn
 numpy
-torch
-torchvision
+torch cpuonly
+torchvision cpuonly
 fastai
 
 
