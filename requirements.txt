@@ -1,9 +1,9 @@
 Flask
 gunicorn
 numpy
-torch
-torchvision
-fastai==1.0.24
+torch-nightly-cpu
+torchvision-nightly-cpu
+fastai
 
 
 
