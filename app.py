@@ -30,7 +30,7 @@ classes = ['Banded Racer','Checkered Keelback','Common Krait',
           ]
 data2 = ImageDataBunch.single_from_classes(path, classes, ds_tfms=get_transforms(), size=224).normalize(imagenet_stats)
 learn = create_cnn(data2, models.resnet34)
-learn.load('stage-1.pth')
+learn.load('stage-1')
 
 
 
