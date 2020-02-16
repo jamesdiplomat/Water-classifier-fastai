@@ -26,7 +26,7 @@ path = Path("path")
 classes = ['cleanwater', 'dirtywater']
 data2 = ImageDataBunch.single_from_classes(path, classes, ds_tfms=get_transforms(), size=224).normalize(imagenet_stats)
 learn = create_cnn(data2, models.resnet34)
-learn.load('stage-2')
+learn.load('stage-1')
 
 
 
