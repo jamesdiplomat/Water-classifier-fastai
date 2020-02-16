@@ -23,10 +23,14 @@ app = Flask(__name__)
 
 
 path = Path("path")
-classes = ['cleanwater', 'dirtywater']
+classes = ['Banded Racer','Checkered Keelback','Common Krait',
+          'Common Rat Snake','Common Sand Boa','Common Trinket',
+          'Green Tree Vine','Indian Rock Python','King Cobra',
+          'Monocle Cobra','Russells Viper','Saw-scaled Viper','Spectacled Cobra'
+          ]
 data2 = ImageDataBunch.single_from_classes(path, classes, ds_tfms=get_transforms(), size=224).normalize(imagenet_stats)
 learn = create_cnn(data2, models.resnet34)
-learn.load('stage-1')
+learn.load('stage-1.pth')
 
 
 
