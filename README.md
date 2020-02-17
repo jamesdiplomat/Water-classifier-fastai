@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/python-3.5%2B-green.svg)]()
 
 
-> A web app to predict whether water is clean or dirty using fastai library.
+> A web app to predict whether a person has arrhythmia or not and which type using fastai library.
 
 ------------------
 
