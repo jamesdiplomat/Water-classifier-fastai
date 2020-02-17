@@ -1,5 +1,5 @@
 
-# Deploy water classifier using flask on heroku
+# Deploy Cardiac Arrhythmia Model
 
 [![](https://img.shields.io/badge/python-3.5%2B-green.svg)]()
 
